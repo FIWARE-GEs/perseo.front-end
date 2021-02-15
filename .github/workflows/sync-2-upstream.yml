@@ -13,7 +13,7 @@ jobs:
       - uses: tgymnich/fork-sync@v1.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          owner: ging
+          owner: telefonicaid
           base: master
           head: master
           auto_approve: true
